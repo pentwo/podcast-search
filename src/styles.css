@@ -1,0 +1,25 @@
+:root {
+  --dark: #0a2b2e;
+  --primary: #009688;
+  --light: #c9dca9;
+  --darkgray: #777777;
+  --lightgray: #aaaaaa;
+  --gray: #eeeeee;
+  --white: #f5f5f5;
+
+  --displayFont: 'Lobster';
+  --minorFont: 'Lato';
+  --majorFont: 'Lato';
+}
+
+/*  */
+
+.app .container {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  padding-top: 5vh;
+  padding-bottom: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
